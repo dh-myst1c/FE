@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Inter", "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+* {
+  box-sizing: border-box;
+}
+/*Themmmm*/
+:root {
+  --main-bg: #ffffff;
+  --second-bg: #fafafb;
+  --txt-color: #455560;
+  --txt-white: #fff;
+  --main-color: #03c9d7;
+  --second-color: #1ad3e0;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  --main-bg-light: #ffffff;
+  --second-bg-light: #fafafb;
+  --txt-color-light: #455560;
+  --box-shadow-light: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  --main-bg-dark: #2d2d2d;
+  --second-bg-dark: #202020;
+  --txt-color-dark: #bbbbbb;
+  --box-shadow-dark: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+
+  --main-color-blue: #349eff;
+  --second-color-blue: #62b4ff;
+
+  --main-color-red: #fb0b12;
+  --second-color-red: #ff4a6b;
+
+  --main-color-cyan: #10d4d2;
+  --second-color-cyan: #2ae9e6;
+
+  --main-color-green: #019707;
+  --second-color-green: #4caf50;
+
+  --main-color-orange: #d68102;
+  --second-color-orange: #fca11a;
+
+  --sidebar-width: 300px;
+  --border-radius: 15px;
+  --topnav-height: 110px;
+  --transition-cubic: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 15px;
+  align-items: center;
+}
+.col-8 {
+  width: 66.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.card {
+  padding: 30px;
+  margin-bottom: 10px;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+.cardstudent {
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-left: 26px;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+.cardclass {
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-left: 26px;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+.cardrank__header {
+  text-transform: capitalize;
+}
+.cardrank__footer {
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.full-height {
+  height: 300px;
+}
+
+@media only screen and (max-width: 500px) {
+  .row {
+    width: 158%;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+    align-items: center;
+  }
+  .col-6 {
+    width: 50%;
+  }
+}

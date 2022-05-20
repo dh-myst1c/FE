@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bxs-school",
+        "count": "52",
+        "title": "Lớp học"
+    },
+    {
+        "icon": "bx bx-book-reader",
+        "count": "150",
+        "title": "Giáo viên"
+    },
+    {
+        "icon": "bx bx-user-pin",
+        "count": "2300",
+        "title": "Học sinh"
+    },
+    {
+        "icon": "bx bx-book-content",
+        "count": "30",
+        "title": "Môn học"
+    }
+]

@@ -1,0 +1,48 @@
+.side-bar {
+  transform: translateX(-100%);
+  background-color: #fff;
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+  letter-spacing: 1.2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 250px;
+  padding: 32px 16px;
+  overflow: auto;
+  transition: all linear 0.5s;
+}
+.side-bar--virtual {
+  width: 250px;
+  height: 100px;
+  display: none;
+}
+.title {
+  display: flex;
+  padding-left: 16px;
+  align-items: center;
+}
+label {
+  font-weight: 600;
+  font-size: 20px;
+  color: #555;
+}
+.side-bar img {
+  width: 100%;
+  padding: 1rem;
+}
+.side-bar .logo {
+  width: 2rem;
+  padding: 0;
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .side-bar {
+    transform: translateX(0);
+  }
+  .side-bar--virtual {
+    display: block;
+  }
+}

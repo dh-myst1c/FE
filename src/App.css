@@ -1,0 +1,9 @@
+.mh-500 {
+  min-height: 500px;
+}
+.bt-none {
+  border-top: none;
+}
+.MuiDataGrid-columnHeader > .MuiDataGrid-columnSeparator {
+  visibility: hidden;
+}
